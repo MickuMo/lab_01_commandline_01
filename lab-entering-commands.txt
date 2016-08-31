@@ -17,8 +17,12 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
+Last login: Wed Aug 31 10:54:27 on ttys000
+Mickus-MacBook-Pro:~ Micku$ ls
+Applications	Downloads	Music		README.md
+Desktop		Library		Pictures	eclipse
+Documents	Movies		Public		ruby
+Mickus-MacBook-Pro:~ Micku$ 
 
 ==========
 2a. Type: 
@@ -27,20 +31,19 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
-
+ERROR sound prompt, nothing happen
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
-
+Desktop/   Documents/ Downloads/ 
+Mickus-MacBook-Pro:~ Micku$ ls D
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
-
+ls: D: No such file or directory
+Mickus-MacBook-Pro:~ Micku$ 
 
 ==========
 3.  Type:
@@ -49,8 +52,11 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
+total 80
+drwx------  4 Micku  staff    136 Aug 13 22:04 League of Legends
+-rw-------@ 1 Micku  staff  37964 Feb  1  2016 Lost Item List.xlsx
+drwxr-xr-x  7 Micku  staff    238 May  9 16:52 MMP200
+Mickus-MacBook-Pro:~ Micku$ 
 
 ==========
 4.  Type:
