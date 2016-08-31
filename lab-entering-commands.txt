@@ -17,12 +17,11 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Last login: Wed Aug 31 10:54:27 on ttys000
-Mickus-MacBook-Pro:~ Micku$ ls
-Applications	Downloads	Music		README.md
-Desktop		Library		Pictures	eclipse
-Documents	Movies		Public		ruby
-Mickus-MacBook-Pro:~ Micku$ 
+ent-v314-002:~ student$ ls
+Adlm		Documents	Movies		Things
+Adobe		Downloads	Music		isus
+Applications	Library		Pictures	pymel.log
+Desktop		MPLABXProjects	Public		xgen
 
 ==========
 2a. Type: 
@@ -36,14 +35,13 @@ ERROR sound prompt, nothing happen
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
+ent-v314-002:~ student$ ls D
 Desktop/   Documents/ Downloads/ 
-Mickus-MacBook-Pro:~ Micku$ ls D
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 ls: D: No such file or directory
-Mickus-MacBook-Pro:~ Micku$ 
 
 ==========
 3.  Type:
@@ -52,11 +50,9 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-total 80
-drwx------  4 Micku  staff    136 Aug 13 22:04 League of Legends
--rw-------@ 1 Micku  staff  37964 Feb  1  2016 Lost Item List.xlsx
-drwxr-xr-x  7 Micku  staff    238 May  9 16:52 MMP200
-Mickus-MacBook-Pro:~ Micku$ 
+ent-v314-002:~ student$ ls -l Documents
+total 8
+drwxr-xr-x   5 student  staff  170 Aug 22 14:47 Ableton
 
 ==========
 4.  Type:
@@ -65,8 +61,9 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
+ent-v314-002:~ student$ ls -a Documents
+.			Arduino			Processing
+..			Avid Projects		REAPER Media
 
 ==========
 5.  Type:
@@ -75,8 +72,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
-
+ls -a Documents
 
 ==========
 6.  Type:
@@ -85,8 +81,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
-
+ls -a Documents
 
 ==========
 7.  Type:
@@ -95,8 +90,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
-
+ent-v314-002:~ student$ ls /Volumes/
 
 ==========
 8.  Type:
@@ -105,38 +99,35 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
-
+ent-v314-002:~ student$ ls doesnotexist
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
-
+<UP>
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
-
+-a -l
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
-
+<TAB>
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
-
+$ ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
-
+$ ls Documents
+ent-v314-002:~ student$ foo
+-bash: foo: command not found
 
 ==========
 14.  Type:
@@ -145,8 +136,8 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
-
+ent-v314-002:~ student$ foo
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -155,8 +146,8 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
-
+ent-v314-002:~ student$ foo
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -165,3 +156,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+command: $ ls
+flag: Desktop
+argument: -a
+prompt: is where to type the command $ ls -a Desktop
